@@ -13,6 +13,7 @@
           extend: {
             colors: {
               "clr-primary": "#FFF9F4",
+              "clr-secondary": "#FFF9F4",
               "clr-accent": "#FFA943",
             },
             fontFamily: {
@@ -29,9 +30,9 @@
     ></script>
     <title>Pet Shop</title>
   </head>
-  <body class="fontFamily-Sora max-w-[1440px] mx-auto">
+  <body class="fontFamily-Sora mx-auto">
     <div
-      class="navbar flex items-center justify-between p-2 lg:border-0 border-y-2"
+      class="navbar max-w-[1440px] mx-auto flex items-center justify-between p-2 lg:border-0 border-y-2"
     >
       <div class="flex items-center gap-2">
         <img src="./assets/logo-header.png" alt="Logo" />
@@ -61,8 +62,10 @@
       </div>
     </div>
 
-    <div class="flex-col lg: flex justify-center relative w-full h-1/2 px-2">
-      <div class="items-center mb-32 lg:mb-72 lg:mt-32 py-24 z-20">
+    <div
+      class="max-w-[1440px] mx-auto flex-col lg: flex justify-center relative w-full h-1/2 px-2"
+    >
+      <div class="items-center mb-32 lg:mb-72 lg:mt-32 py-24 z-20 space-y-8">
         <h1 class="text-4xl font-bold">
           Pamper <span class="text-[#FFA943]">Your Pet</span>,<br />
           Because <span class="text-[#FFA943]">They Deserve</span> <br />the
@@ -81,7 +84,7 @@
       />
     </div>
 
-    <div class="max-w-[1440px] mx-auto px-2">
+    <div class="max-w-[1440px] mx-auto px-2 mb-10">
       <h1 class="font-medium text-2xl mb-4">Browse by categories</h1>
       <div class="grid grid-cols-2 lg:grid-cols-6 gap-3">
         <div
@@ -153,6 +156,174 @@
           />
           <h3 class="font-medium text-lg">Rabbit</h3>
           <p>3 Items</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="trending pb-20 py-20 bg-[#FFF9F4]">
+      <div class="max-w-[1440px] mx-auto px-2">
+        <h3 class="text-2xl font-medium mb-4">Trending Pet Products</h3>
+        <div class="flex flex-col lg:flex-row gap-3">
+          <div class="bg-gradient-to-r from-[#FFA943] to-[#ece2d5] relative p-8 space-y-8 rounded-md">
+            <h4 class="font-medium text-xl">T-Shirt for Dogs</h4>
+            <p class="w-1/2">
+              Discover a world of treats, toys and essentials handpicked for
+              your pet.
+            </p>
+            <button class="px-5 py-2 rounded-md bg-white text-black">
+              Shop Now
+            </button>
+            <img class="absolute bottom-0 right-0" src="./assets/cute-pet-small.png" alt="">
+          </div>
+          <div class="flex-1">
+            <div class="productsGrid grid grid-cols-2 lg:grid-cols-3 gap-3">
+              <div class="bg-white p-2 rounded-md flex items-center gap-3">
+                <img
+                  class="p-2 bg-[#FFF9F4] rounded-sm"
+                  src="./assets/dog-cartoon.png"
+                  alt=""
+                />
+                <div>
+                  <div class="flex items-center tex-sm gap-2">
+                    <i class="fa-solid fa-star text-[#FFA943]"></i>
+                    <p>4.5</p>
+                  </div>
+                  <h4 class="font-medium text-sm">Pet Bed</h4>
+                  <p>$39.99</p>
+                </div>
+              </div>
+
+              <div class="bg-white p-2 rounded-md flex items-center gap-3">
+                <img
+                  class="p-2 bg-[#FFF9F4] rounded-sm"
+                  src="./assets/dog-cartoon.png"
+                  alt=""
+                />
+                <div>
+                  <div class="flex items-center tex-sm gap-2">
+                    <i class="fa-solid fa-star text-[#FFA943]"></i>
+                    <p>4.5</p>
+                  </div>
+                  <h4 class="font-medium text-sm">Pet Bed</h4>
+                  <p>$39.99</p>
+                </div>
+              </div>
+
+              <div class="bg-white p-2 rounded-md flex items-center gap-3">
+                <img
+                  class="p-2 bg-[#FFF9F4] rounded-sm"
+                  src="./assets/dog-cartoon.png"
+                  alt=""
+                />
+                <div>
+                  <div class="flex items-center tex-sm gap-2">
+                    <i class="fa-solid fa-star text-[#FFA943]"></i>
+                    <p>4.5</p>
+                  </div>
+                  <h4 class="font-medium text-sm">Pet Bed</h4>
+                  <p>$39.99</p>
+                </div>
+              </div>
+
+              <div class="bg-white p-2 rounded-md flex items-center gap-3">
+                <img
+                  class="p-2 bg-[#FFF9F4] rounded-sm"
+                  src="./assets/dog-cartoon.png"
+                  alt=""
+                />
+                <div>
+                  <div class="flex items-center tex-sm gap-2">
+                    <i class="fa-solid fa-star text-[#FFA943]"></i>
+                    <p>4.5</p>
+                  </div>
+                  <h4 class="font-medium text-sm">Pet Bed</h4>
+                  <p>$39.99</p>
+                </div>
+              </div>
+
+              <div class="bg-white p-2 rounded-md flex items-center gap-3">
+                <img
+                  class="p-2 bg-[#FFF9F4] rounded-sm"
+                  src="./assets/dog-cartoon.png"
+                  alt=""
+                />
+                <div>
+                  <div class="flex items-center tex-sm gap-2">
+                    <i class="fa-solid fa-star text-[#FFA943]"></i>
+                    <p>4.5</p>
+                  </div>
+                  <h4 class="font-medium text-sm">Pet Bed</h4>
+                  <p>$39.99</p>
+                </div>
+              </div>
+
+              <div class="bg-white p-2 rounded-md flex items-center gap-3">
+                <img
+                  class="p-2 bg-[#FFF9F4] rounded-sm"
+                  src="./assets/dog-cartoon.png"
+                  alt=""
+                />
+                <div>
+                  <div class="flex items-center tex-sm gap-2">
+                    <i class="fa-solid fa-star text-[#FFA943]"></i>
+                    <p>4.5</p>
+                  </div>
+                  <h4 class="font-medium text-sm">Pet Bed</h4>
+                  <p>$39.99</p>
+                </div>
+              </div>
+
+              <div class="bg-white p-2 rounded-md flex items-center gap-3">
+                <img
+                  class="p-2 bg-[#FFF9F4] rounded-sm"
+                  src="./assets/dog-cartoon.png"
+                  alt=""
+                />
+                <div>
+                  <div class="flex items-center tex-sm gap-2">
+                    <i class="fa-solid fa-star text-[#FFA943]"></i>
+                    <p>4.5</p>
+                  </div>
+                  <h4 class="font-medium text-sm">Pet Bed</h4>
+                  <p>$39.99</p>
+                </div>
+              </div>
+
+              <div class="bg-white p-2 rounded-md flex items-center gap-3">
+                <img
+                  class="p-2 bg-[#FFF9F4] rounded-sm"
+                  src="./assets/dog-cartoon.png"
+                  alt=""
+                />
+                <div>
+                  <div class="flex items-center tex-sm gap-2">
+                    <i class="fa-solid fa-star text-[#FFA943]"></i>
+                    <p>4.5</p>
+                  </div>
+                  <h4 class="font-medium text-sm">Pet Bed</h4>
+                  <p>$39.99</p>
+                </div>
+              </div>
+
+              <div class="bg-white p-2 rounded-md hidden lg:flex items-center gap-3">
+                <img
+                  class="p-2 bg-[#FFF9F4] rounded-sm"
+                  src="./assets/dog-cartoon.png"
+                  alt=""
+                />
+                <div>
+                  <div class="flex items-center tex-sm gap-2">
+                    <i class="fa-solid fa-star text-[#FFA943]"></i>
+                    <p>4.5</p>
+                  </div>
+                  <h4 class="font-medium text-sm">Pet Bed</h4>
+                  <p>$39.99</p>
+                </div>
+              </div>
+              
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

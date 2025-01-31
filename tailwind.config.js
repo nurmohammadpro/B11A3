@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       colors: {
         "clr-primary": "#FFF9F4",
+        "clr-secondary": "#FFF9F4",
         "clr-accent": "#FFA943",
       },
       fontFamily: {
